@@ -1,0 +1,14 @@
+{
+  "apiVersion": "openjoystickdriver/v1alpha1",
+  "kind": "Controller",
+  "vendorID": 9571,
+  "productID": 281,
+  "modes": [
+    {
+      "id": "default",
+      "protocol": {
+        "family": "SonyDualShock4"
+      }
+    }
+  ]
+}

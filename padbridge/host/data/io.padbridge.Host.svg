@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- PadBridge app icon: a gamepad on a tile, sending a signal. Flat GNOME palette colours. -->
+  <rect x="12" y="20" width="104" height="96" rx="22" fill="#1a5fb4"/>
+  <rect x="12" y="12" width="104" height="96" rx="22" fill="#3584e4"/>
+  <!-- signal arcs -->
+  <path d="M50 30 a20 20 0 0 1 28 0" fill="none" stroke="#99c1f1" stroke-width="6" stroke-linecap="round"/>
+  <path d="M41 21 a33 33 0 0 1 46 0" fill="none" stroke="#99c1f1" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <!-- gamepad body -->
+  <path d="M38 48 h52 c11 0 17 7 19 17 l5 22 c2 10 -4 17 -12 17 c-6 0 -9 -3 -13 -9 l-4 -6 h-42 l-4 6 c-4 6 -7 9 -13 9 c-8 0 -14 -7 -12 -17 l5 -22 c2 -10 8 -17 19 -17 z" fill="#c0bfbc"/>
+  <path d="M38 44 h52 c11 0 17 7 19 17 l5 22 c2 10 -4 17 -12 17 c-6 0 -9 -3 -13 -9 l-4 -6 h-42 l-4 6 c-4 6 -7 9 -13 9 c-8 0 -14 -7 -12 -17 l5 -22 c2 -10 8 -17 19 -17 z" fill="#f6f5f4"/>
+  <!-- d-pad -->
+  <rect x="34" y="62" width="20" height="7" rx="2" fill="#5e5c64"/>
+  <rect x="40.5" y="55.5" width="7" height="20" rx="2" fill="#5e5c64"/>
+  <!-- face buttons -->
+  <circle cx="88" cy="58" r="4.5" fill="#e5a50a"/>
+  <circle cx="97" cy="66" r="4.5" fill="#e01b24"/>
+  <circle cx="79" cy="66" r="4.5" fill="#1c71d8"/>
+  <circle cx="88" cy="74" r="4.5" fill="#2ec27e"/>
+  <!-- sticks -->
+  <circle cx="54" cy="84" r="7" fill="#5e5c64"/>
+  <circle cx="74" cy="84" r="7" fill="#5e5c64"/>
+</svg>

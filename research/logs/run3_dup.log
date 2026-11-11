@@ -1,0 +1,22 @@
+controller already attached: unplug it
+waiting for 2dc8:2027 (plug it in now) wait=0 alt=1 reset=0
+     0.0 ms  opened
+     0.0 ms  GET_CONFIGURATION -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED, config=0
+     6.8 ms  GET_STATUS(device) -> 2, 02 00
+     6.8 ms  set_configuration(1) -> NO_DEVICE (plug bounce); waiting for it to come back
+    31.9 ms  reopened
+    34.7 ms  set_configuration(1) -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED
+    34.7 ms  claim 0 -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED
+    54.7 ms  claim 1 -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED
+    54.9 ms  SET_INTERFACE(1,0) -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED
+    55.7 ms  submit IN -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED
+    59.7 ms  -> 05 20 00 01 00
+    59.7 ms     POWER ON (sacrificial): LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED (5 bytes)
+    63.7 ms  -> 05 20 00 01 00
+    63.7 ms     POWER ON: LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED (5 bytes)
+    67.7 ms  -> 0a 20 01 03 00 01 14
+    67.7 ms     LED ON: LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED (7 bytes)
+    71.7 ms  -> 06 20 02 02 01 00
+    71.7 ms     AUTH DONE: LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED (6 bytes)
+    71.7 ms  listening 10 s: press buttons and move sticks
+ 10572.7 ms  RESULT: 0 IN packets, 0 input reports (0x20)

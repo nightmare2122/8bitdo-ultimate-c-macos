@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=PadBridge
+GenericName=Controller bridge
+Comment=Use this laptop as a Bluetooth game controller for your Mac
+Exec=/opt/padbridge/bin/padbridge-host
+Icon=io.padbridge.Host
+Terminal=false
+Categories=Utility;Game;Settings;
+Keywords=controller;gamepad;xbox;dualshock;bluetooth;mac;
+StartupNotify=true
+DBusActivatable=false

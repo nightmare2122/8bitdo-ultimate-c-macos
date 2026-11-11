@@ -1,0 +1,18 @@
+waiting for 2dc8:2027 (plug it in now) wait=5000 alt=1 reset=0
+     0.0 ms  opened
+     0.0 ms  GET_CONFIGURATION -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED, config=0
+     2.5 ms  GET_STATUS(device) -> 2, 02 00
+     2.5 ms  leaving it alone for 5000 ms (watch the LED)
+  5007.6 ms  set_configuration(1) -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED
+  5010.5 ms  claim 0 -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED
+  5031.5 ms  claim 1 -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED
+  5031.7 ms  SET_INTERFACE(1,0) -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED
+  5032.6 ms  submit IN -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED
+  5036.5 ms  -> 05 20 00 01 00
+  5036.5 ms     POWER ON: LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED (5 bytes)
+  5040.4 ms  -> 0a 20 01 03 00 01 14
+  5040.5 ms     LED ON: LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED (7 bytes)
+  5044.5 ms  -> 06 20 02 02 01 00
+  5044.5 ms     AUTH DONE: LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED (6 bytes)
+  5044.5 ms  listening 10 s: press buttons and move sticks
+ 15504.0 ms  RESULT: 0 IN packets, 0 input reports (0x20)

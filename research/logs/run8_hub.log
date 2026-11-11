@@ -1,0 +1,23 @@
+waiting for 2dc8:2027 (plug it in now) wait=0 alt=1 reset=0
+     0.0 ms  opened
+     0.0 ms  GET_CONFIGURATION -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED, config=0
+     1.6 ms  GET_STATUS(device) -> 2, 02 00
+     5.6 ms  set_configuration(1) -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED
+     5.6 ms  claim 0 -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED
+    21.6 ms  claim 1 -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED
+    21.8 ms  SET_INTERFACE(1,0) -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED
+    22.7 ms  submit IN -> LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED
+    25.9 ms  -> 05 20 00 01 00
+    25.9 ms     POWER ON: LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED (5 bytes)
+    29.9 ms  -> 0a 20 01 03 00 01 14
+    29.9 ms     LED ON: LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED (7 bytes)
+    33.9 ms  -> 06 20 02 02 01 00
+    33.9 ms     AUTH DONE: LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED (6 bytes)
+    34.7 ms  GET_STATUS(endpoint 0x81) -> -9, 00 00
+    37.7 ms  GET_STATUS(endpoint 0x02) -> 2, 00 00
+    41.9 ms  -> 09 00 03 09 00 0f 00 00 80 80 64 00 00
+    41.9 ms     RUMBLE ON: LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED (13 bytes)
+  1257.9 ms  -> 09 00 04 09 00 0f 00 00 00 00 00 00 00
+  1258.0 ms     RUMBLE OFF: LIBUSB_SUCCESS / LIBUSB_TRANSFER_COMPLETED (13 bytes)
+  1258.0 ms  listening 8 s: press buttons and move sticks
+  9726.0 ms  RESULT: 0 IN packets, 0 input reports (0x20)

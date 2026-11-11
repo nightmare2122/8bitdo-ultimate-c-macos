@@ -1,0 +1,29 @@
+03:37:02.3N present=0 
+03:37:49.3N present=1  | "IOPowerManagement" = {"PowerOverrideOn"=Yes,"DevicePowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=32768,"MaxPowerState"=2,"DriverPowerState"=0} 
+03:37:54.3N present=1 
+03:39:05.3N present=0 
+03:39:08.3N present=1 
+03:39:31.3N present=0 
+03:40:11.3N present=1  | "IOPowerManagement" = {"PowerOverrideOn"=Yes,"DevicePowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=32768,"MaxPowerState"=2,"DriverPowerState"=0} 
+03:40:18.3N present=0 
+03:40:21.3N present=1  | "IOPowerManagement" = {"PowerOverrideOn"=Yes,"DevicePowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=32768,"MaxPowerState"=2,"DriverPowerState"=0} 
+03:40:50.3N present=0 
+03:40:54.3N present=1  | "IOPowerManagement" = {"PowerOverrideOn"=Yes,"DevicePowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=32768,"MaxPowerState"=2,"DriverPowerState"=0} 
+03:40:54.3N present=1 
+03:41:38.3N present=0 
+03:41:42.3N present=1  | "IOPowerManagement" = {"PowerOverrideOn"=Yes,"DevicePowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=32768,"MaxPowerState"=2,"DriverPowerState"=0} 
+03:42:47.3N present=0 
+03:42:50.3N present=1 
+03:43:53.3N present=0 
+03:44:03.3N present=1  "IOPowerManagement" = {"PowerOverrideOn"=Yes,"DevicePowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=32768,"MaxPowerState"=2,"DriverPowerState"=0} 
+03:44:03.3N present=1 
+03:45:19.3N present=0 
+03:45:35.3N present=1 
+03:46:27.3N present=0 
+03:46:30.3N present=1 
+03:48:06.3N present=0 
+03:48:28.3N present=1 
+03:48:29.3N present=1  | | "IOPowerManagement" = {"PowerOverrideOn"=Yes,"DevicePowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=32768,"MaxPowerState"=2,"DriverPowerState"=0}  | | "IOPowerManagement" = {"DevicePowerState"=1,"CurrentPowerState"=1,"CapabilityFlags"=65540,"MaxPowerState"=3,"DriverPowerState"=0}  | | "IOPowerManagement" = {"DevicePowerState"=1,"CurrentPowerState"=1,"CapabilityFlags"=65540,"MaxPowerState"=3,"DriverPowerState"=0}  | "IOPowerManagement" = {"DevicePowerState"=1,"CurrentPowerState"=1,"CapabilityFlags"=65540,"MaxPowerState"=3,"DriverPowerState"=0} 
+03:49:20.3N present=1  | | "IOPowerManagement" = {"DevicePowerState"=1,"CurrentPowerState"=1,"CapabilityFlags"=65540,"MaxPowerState"=3,"DriverPowerState"=0}  | | "IOPowerManagement" = {"DevicePowerState"=1,"CurrentPowerState"=1,"CapabilityFlags"=65540,"MaxPowerState"=3,"DriverPowerState"=0}  | "IOPowerManagement" = {"DevicePowerState"=1,"CurrentPowerState"=1,"CapabilityFlags"=65540,"MaxPowerState"=3,"DriverPowerState"=0} 
+03:49:30.3N present=1  | | | "IOPowerManagement" = {"PowerOverrideOn"=Yes,"DevicePowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=32768,"MaxPowerState"=2,"DriverPowerState"=0}  | | | "kUSBCurrentConfiguration" = 1  | | "IOPowerManagement" = {"DevicePowerState"=1,"CurrentPowerState"=1,"CapabilityFlags"=65540,"MaxPowerState"=3,"DriverPowerState"=0}  | | "IOPowerManagement" = {"DevicePowerState"=1,"CurrentPowerState"=1,"CapabilityFlags"=65540,"MaxPowerState"=3,"DriverPowerState"=0}  | "IOPowerManagement" = {"DevicePowerState"=1,"CurrentPowerState"=1,"CapabilityFlags"=65540,"MaxPowerState"=3,"DriverPowerState"=0} 
+03:57:48.3N present=0 

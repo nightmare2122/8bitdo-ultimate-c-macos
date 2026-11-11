@@ -1,0 +1,32 @@
+{
+  "_help": "Layout for bridge_mac.py. Keys: a-z, 0-9, space, return, tab, escape, delete, shift, control, option, command, up/down/left/right, f1-f12, and punctuation. Mouse: mouse:left, mouse:right, mouse:middle. null = unused. Sticks: wasd, arrows, mouse, scroll, none.",
+  "buttons": {
+    "A": "space",
+    "B": "escape",
+    "X": "r",
+    "Y": "e",
+    "LB": "q",
+    "RB": "f",
+    "View": "tab",
+    "Menu": "return",
+    "Guide": null,
+    "LS": "shift",
+    "RS": "mouse:middle",
+    "Up": "up",
+    "Down": "down",
+    "Left": "left",
+    "Right": "right",
+    "Share": null
+  },
+  "triggers": {
+    "LT": "mouse:right",
+    "RT": "mouse:left"
+  },
+  "left_stick": "wasd",
+  "right_stick": "mouse",
+  "mouse_speed": 1500,
+  "scroll_speed": 1200,
+  "deadzone": 0.15,
+  "stick_key_threshold": 0.5,
+  "trigger_threshold": 0.35
+}

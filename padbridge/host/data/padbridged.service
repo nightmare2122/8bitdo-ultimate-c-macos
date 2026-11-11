@@ -1,0 +1,21 @@
+[Unit]
+Description=PadBridge host service (game controller to Mac over Bluetooth)
+Documentation=file:///opt/padbridge/README.md
+After=bluetooth.service
+Wants=bluetooth.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /opt/padbridge/bin/padbridged
+WorkingDirectory=/opt/padbridge/engine
+Environment=PYTHONUNBUFFERED=1
+RuntimeDirectory=padbridge
+RuntimeDirectoryMode=0755
+Restart=on-failure
+RestartSec=2
+# SIGTERM goes to padbridged, which stops the engine and releases the inhibitor itself.
+KillMode=mixed
+TimeoutStopSec=15
+
+[Install]
+WantedBy=multi-user.target

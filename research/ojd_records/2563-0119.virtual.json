@@ -1,0 +1,6 @@
+{
+  "apiVersion": "openjoystickdriver/v1alpha1",
+  "kind": "VirtualDevice",
+  "match": { "vendorID": 9571, "productID": 281 },
+  "persona": "GameControllerCompatible"
+}
